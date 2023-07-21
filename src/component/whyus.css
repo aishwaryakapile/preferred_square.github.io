@@ -1,0 +1,789 @@
+.whyus-section {
+    width: 100%;
+    /* min-height: 100vh; */
+    background: linear-gradient(121.92deg, #041E30 13.01%, #000000 74.52%);
+}
+
+.whyus-section .container-fluid {
+    height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.whyus-section .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.whyus-section .d-flex.middle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    padding-right: 10%;
+    height: 100%;
+    position: relative;
+
+}
+
+
+.whyus-section .content-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    position: relative;
+
+}
+
+.whyus-section .content-box h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 69px;
+    z-index: 1;
+}
+
+.whyus-section .content-box .h1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 100px;
+}
+
+.whyus-section .content-box .strok {
+    text-align: center;
+    font-size: 140px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #F11576;
+    -webkit-text-stroke: 1px rgba(241, 21, 118, 1);
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 220px;
+    line-height: 180px;
+    left: 75px;
+    /* bottom: 75px; */
+    top: -30px;
+    opacity: 0.4;
+    position: absolute;
+}
+
+.whyus-section .content-box P {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3em;
+    max-width: 409px;
+    color: #FFFFFF;
+}
+
+.whyus-section .content-box .findout-btn {
+    padding: 30px 30px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #03AD9B;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #03A796;
+    background-color: transparent;
+    z-index: +1;
+    max-width: 313px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+
+.image-box {
+    background: transparent;
+    position: relative;
+    /* background-position: center;
+    background-size: cover; */
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+
+}
+
+
+.image-box img {
+    transition: all 2s;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.01);
+}
+
+.image-box:hover img {
+    transform: scale(1.2);
+}
+
+.link h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    color: #FFFFFF;
+    transition: all 2s;
+
+}
+
+.link p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: all 2s;
+    display: none;
+
+}
+
+/* .image-box:hover .link h3{
+    font-size: 34px;
+    transform: translateX(10px);
+} */
+
+.image-box:hover .link p {
+    display: block;
+}
+
+.image-box .overlay {
+    position: absolute;
+    bottom: 0;
+    margin: auto auto;
+    text-align: left;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+
+
+
+/* form */
+/* 
+label {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #03AD9B;
+}
+
+input[type=text],input[type=email],textarea ,select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #03AD9B;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:transparent;
+    border: 2px solid #03AD9B;
+    border-radius: 10px;
+  }
+
+  input[type=text],input[type=email] ,select {
+    height: 60px;
+  }
+
+  textarea {
+    height:150px;
+    background-color:transparent;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .whyus-section button {
+    padding: 20px 35px;
+    color:#ffffff;
+    background: linear-gradient(180deg, #01C6B2 0%, #048D7F 128.35%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    text-align: right;
+  }
+
+.text-right {
+    text-align: right;
+} */
+
+
+
+
+/*or 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+    .whyus-section.mobile {
+        background: linear-gradient(270deg, #041E30 13.01%, #000000 95.52%);
+        position: relative !important;
+        padding-bottom: 100px;
+        /* height: auto !important; */
+    }
+
+    .whyus-section .d-flex.middle {
+        text-align: center;
+        padding: 40px 20px 20px;
+    }
+
+    .whyus-section.mobile .content-box {
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .whyus-section .content-box h2 {
+        font-size: 26px !important;
+        line-height: normal;
+        margin: 0;
+    }
+
+    .whyus-section.mobile .content-box .strok {
+        font-size: 60px;
+        line-height: 180px;
+        top: 12px;
+        margin: 0px;
+        top: -65px;
+        left: 30px;
+    }
+
+    .whyus-section.mobile .content-box .h1 {
+        font-size: 50px;
+        line-height: normal;
+        transform: translateY(-8px);
+        text-align: center;
+    }
+
+    .whyus-section.mobile .content-box .h1 span.animate-underline:after {
+        position: absolute;
+        bottom: -10px !important;
+    }
+
+    .whyus-section.mobile .d-flex.middle p {
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        text-align: left;
+    }
+
+    .swiper {
+        width: 100%;
+        height: auto;
+        padding-bottom: 70px;
+
+    }
+
+    .swipermobile {
+        position: relative;
+        padding: 0px 0px;
+        width: 100% !important;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100% !important;
+        height: 300px;
+        margin: auto;
+        object-fit: cover;
+        /* padding-bottom: 30px; */
+    }
+
+    .swiper-horizontal>.pagination-bullets {
+        color: #03A796 !;
+    }
+
+    .whyus-section.mobile .container {
+        height: 100%;
+        display: block;
+        min-height: 35vh !important;
+    }
+
+    /* .SwiperSlide{
+
+    } */
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .whyus-section.mobile .link {
+        position: absolute;
+        bottom: 10%;
+        left: 20px;
+    }
+
+    .whyus-section.mobile .link h3 {
+        color: #FFF;
+        font-size: 18px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .whyus-section.mobile .link p {
+        color: #FFF;
+        font-size: 14px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: block;
+    }
+
+    .whyus-section.mobile .swipermobile .mySwiper {
+        /* overflow: visible; */
+        padding: 40px;
+    }
+
+    .whyus-section.mobile .swipermobile .mySwiper .swiper-pagination {
+        bottom: 0px;
+    }
+
+
+    .whyus-section.mobile .swipermobile .mySwiper span.swiper-pagination-bullet {
+        background: #03A796;
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .whyus-section.mobile .swipermobile .mySwiper span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background: transparent;
+        border: 3px solid #03A796;
+        height: 10px;
+        width: 10px;
+    }
+
+    .whyus-section.mobile .mobilebtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+
+    .whyus-section.mobile .findout-btn {
+        color: #03AD9B;
+        text-align: center;
+        font-size: 14px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        width: 180px;
+        height: 48px;
+        padding: 15px 10px;
+        justify-content: center !important;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        background-color: transparent;
+        border: 1px solid #03A796;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+        /* top: 60%; */
+        /* position: absolute; */
+    }
+
+
+    /* .whyus-section .whyusbtn{
+height:100%;
+min-height:40vh ;
+    } */
+}
+
+
+@media only screen and (min-device-width : 640px) and (max-device-width : 768px) {
+    .whyus-section.mobile {
+        background: linear-gradient(270deg, #041E30 13.01%, #000000 95.52%);
+        position: relative !important;
+        padding-bottom: 100px;
+        /* height: auto !important; */
+    }
+
+    .whyus-section .d-flex.middle {
+        text-align: center;
+        padding: 40px 20px 20px;
+    }
+
+    .whyus-section.mobile .content-box {
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .whyus-section .content-box h2 {
+        font-size: 26px !important;
+        line-height: normal;
+        margin: 0;
+    }
+
+    .whyus-section.mobile .content-box .strok {
+        font-size: 60px;
+        line-height: 180px;
+        top: 12px;
+        margin: 0px;
+        top: -65px;
+        left: 30px;
+    }
+
+    .whyus-section.mobile .content-box .h1 {
+        font-size: 50px;
+        line-height: normal;
+        transform: translateY(-8px);
+        text-align: center;
+    }
+
+    .whyus-section.mobile .content-box .h1 span.animate-underline:after {
+        position: absolute;
+        bottom: -10px !important;
+    }
+
+    .whyus-section.mobile .d-flex.middle p {
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        text-align: left;
+    }
+
+    .swiper {
+        width: 100%;
+        height: auto;
+        padding-bottom: 70px;
+
+    }
+
+    .swipermobile {
+        position: relative;
+        padding: 0px 0px;
+        width: 100% !important;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100% !important;
+        height: 400px;
+        margin: auto;
+        object-fit: cover;
+        /* padding-bottom: 30px; */
+    }
+
+    .swiper-horizontal>.pagination-bullets {
+        color: #03A796 !;
+    }
+
+    .whyus-section.mobile .container {
+        height: 100%;
+        display: block;
+        min-height: 35vh !important;
+    }
+
+    /* .SwiperSlide{
+
+    } */
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .whyus-section.mobile .link {
+        position: absolute;
+        bottom: 10%;
+        left: 20px;
+    }
+
+    .whyus-section.mobile .link h3 {
+        color: #FFF;
+        font-size: 20px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .whyus-section.mobile .link p {
+        color: #FFF;
+        font-size: 14px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: block;
+    }
+
+    .whyus-section.mobile .swipermobile .mySwiper {
+        /* overflow: visible; */
+        padding: 40px;
+    }
+
+    .whyus-section.mobile .swipermobile .mySwiper .swiper-pagination {
+        bottom: 0px;
+    }
+
+    .whyus-section.mobile .swipermobile .mySwiper span.swiper-pagination-bullet {
+        background: #03A796;
+        width: 10px;
+        height: 10px;
+    }
+
+    .whyus-section.mobile .swipermobile .mySwiper span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background: transparent;
+        border: 3px solid #03A796;
+        height: 10px;
+        width: 10px;
+    }
+
+    .whyus-section.mobile .mobilebtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+
+    .whyus-section.mobile .findout-btn {
+        color: #03AD9B;
+        text-align: center;
+        font-size: 14px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        width: 180px;
+        height: 48px;
+        padding: 15px 10px;
+        justify-content: center !important;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        background-color: transparent;
+        border: 1px solid #03A796;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+        /* top: 60%; */
+        /* position: absolute; */
+    }
+
+
+    /* .whyus-section .whyusbtn{
+        height:100%;
+        min-height:40vh ;
+    } */
+}
+
+@media (min-width: 1024px) and (max-width: 1080px) {
+    .whyus-section .content-box h2 {
+        font-size: 42px;
+        line-height: 48.3px;
+    }
+
+    .whyus-section .content-box .h1 {
+        font-size: 84px;
+        line-height: 70px;
+    }
+
+    .whyus-section .content-box P {
+        font-size: 14px;
+    }
+
+    .whyus-section .content-box .strok {
+        font-size: 154px;
+        line-height: 126px;
+    }
+
+    .link h3 {
+        font-size: 17.5px;
+        line-height:27.3px;
+    }
+    
+    .link p {
+        font-size: 14.7px;
+        line-height: 14.7px;
+    }
+    
+}
+
+@media (min-width: 1080px) and (max-width: 1280px) {
+    .whyus-section .content-box h2 {
+        font-size: 45px;
+        line-height: 51.75px;
+    }
+
+    .whyus-section .content-box .h1 {
+        font-size: 90px;
+        line-height: 75px;
+    }
+
+    .whyus-section .content-box P {
+        font-size: 15px;
+    }
+
+    .whyus-section .content-box .strok {
+        font-size: 165px;
+        line-height: 135px;
+    }
+    .link h3 {
+        font-size: 18.75px;
+        line-height:29.25px;
+    }
+    
+    .link p {
+        font-size: 15.75px;
+        line-height: 15.75px;
+    }
+
+}
+
+@media (min-width: 1280px) and (max-width: 1360px) {
+
+    .whyus-section .content-box h2 {
+        font-size: 48px;
+        line-height: 55.2px;
+    }
+
+    .whyus-section .content-box .h1 {
+        font-size: 96px;
+        line-height: 80px;
+    }
+
+    .whyus-section .content-box P {
+        font-size: 16px;
+    }
+    .whyus-section .content-box .strok {
+        font-size: 176px;
+        line-height: 144px;
+    }
+    .link h3 {
+        font-size: 20px;
+        line-height:31.2px;
+    }
+    
+    .link p {
+        font-size: 16.8px;
+        line-height: 16.8px;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1440px) {
+
+    .whyus-section .content-box h2 {
+        font-size: 51px;
+        line-height: 58.65px;
+    }
+
+    .whyus-section .content-box .h1 {
+        font-size: 102px;
+        line-height: 85px;
+    }
+
+    .whyus-section .content-box P {
+        font-size: 17px;
+    }
+    .whyus-section .content-box .strok {
+        font-size: 187px;
+        line-height: 153px;
+    }
+    .link h3 {
+        font-size: 21.25px;
+        line-height:33.15px;
+    }
+    
+    .link p {
+        font-size: 17.85px;
+        line-height: 17.85px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1680px) {
+
+    .whyus-section .content-box h2 {
+        font-size: 54px;
+        line-height: 62.1px;
+    }
+
+    .whyus-section .content-box .h1 {
+        font-size: 108px;
+        line-height: 90px;
+    }
+
+    .whyus-section .content-box P {
+        font-size: 18px;
+    }
+    .whyus-section .content-box .strok {
+        font-size: 198px;
+        line-height: 162px;
+    }
+    .link h3 {
+        font-size: 22.5px;
+        line-height:35.1px;
+    }
+    
+    .link p {
+        font-size: 18.9px;
+        line-height: 18.9px;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1919px) {
+
+    .whyus-section .content-box h2 {
+        font-size: 57px;
+        line-height: 65.55px;
+    }
+
+    .whyus-section .content-box .h1 {
+        font-size: 114px;
+        line-height: 95px;
+    }
+
+    .whyus-section .content-box P {
+        font-size: 19px;
+    }
+    .whyus-section .content-box .strok {
+        font-size: 209px;
+        line-height: 171px;
+    }
+    .link h3 {
+        font-size: 23.75px;
+        line-height:37.05px;
+    }
+    
+    .link p {
+        font-size: 19.95px;
+        line-height:19.95px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {}

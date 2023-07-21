@@ -1,0 +1,202 @@
+header.header-home {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 5.67%, rgba(0, 0, 0, 0.488542) 10.88%, rgba(0, 0, 0, 0) 30.38%);
+    background: linear-gradient(187deg, rgba(0, 0, 0, 1) 5.67%, rgba(0, 0, 0, 0.488542) 25.88%, rgba(0, 0, 0, 0) 60.38%); 
+}
+
+
+header.header-home video#background-video {
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+header.header-home .hero {
+    min-height: 100vh;
+    position: relative;
+
+}
+
+header.header-home .hero-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+header.header-home .hero-text {
+    padding-left: 5px;
+    /* border-left:5px solid #F11576; */
+    position: relative;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+header.header-home .hero-text:before {
+    content: "";
+    width: 6px;
+    background: #F11576;
+    height: 85%;
+    position: absolute;
+    top: 3%;
+    left: -10px;
+}
+
+header.header-home .hero-text h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 69px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+header.header-home .hero-text h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 138px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+header.header-home .navbar-nav a {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.393478px;
+    color: #FFFFFF;
+}
+
+
+/* For 480 Resolution */  
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ /* STYLES GO HERE */
+    
+    header.header-home .hero-text h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    header.header-home .hero-text h2 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    header.header-home .hero-text:before {
+        width: 4px;
+        left: -4px;
+    }
+} 
+
+
+/* For 640 Resolution */  
+@media only screen   
+and (min-device-width : 481px)   
+and (max-device-width : 640px)  
+{ /* STYLES GO HERE */
+    header.header-home .hero-text h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    header.header-home .hero-text h2 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    header.header-home .hero-text:before {
+        width: 4px;
+        left: -4px;
+    }
+
+}  
+
+
+/* For 1024 Resolution */  
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{ /* STYLES GO HERE */} 
+
+@media only screen  and (min-width: 1024px)  and (max-width: 1360px)  
+{ 
+    header.header-home .hero-text h3 {
+        font-size: 45px;
+        line-height: 51.75px;
+    }
+
+    header.header-home .hero-text h2 {
+        font-size: 90px;
+        line-height: 103.5px;
+    } 
+
+}  
+
+
+@media only screen  and (min-width: 1360x)  and (max-width: 1440px)  
+{  
+    
+    header.header-home .hero-text h3 {
+        font-size: 48px;
+        line-height: 55.2px;
+    }
+
+    header.header-home .hero-text h2 {
+        font-size: 96px;
+        line-height: 110.4px;
+    } 
+}  
+
+@media only screen  and (min-width: 1440px)  and (max-width: 1680px)  
+{  
+    
+    header.header-home .hero-text h3 {
+        font-size: 51px;
+        line-height: 58.65px;
+    }
+
+    header.header-home .hero-text h2 {
+        font-size: 102px;
+        line-height: 117.3px;
+    } 
+}  
+
+
+@media only screen  and (min-width: 1680px) and (max-width: 1920px)  
+{ 
+
+    header.header-home .hero-text h3 {
+        font-size: 54px;
+        line-height: 62.1px;
+    }
+
+    header.header-home .hero-text h2 {
+        font-size: 108px;
+        line-height: 124.2px;
+    } 
+}  
+
+@media only screen  and (min-width: 1920px) {
+
+
+
+} 
+
+
+

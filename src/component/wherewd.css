@@ -1,0 +1,330 @@
+.wherewd-section {
+    width: 100%;
+    /* min-height: 100vh; */
+    background: linear-gradient(121.92deg, #041E30 13.01%, #000000 74.52%);
+    background: #ffffff;
+    background-size: contain !important;
+    position: relative;
+}
+
+.wherewd-section .container-fluid {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#000000;
+}
+
+/* .h1.anima {
+    line-height: 140px;
+    padding-bottom: 20px;
+} */
+
+.wherewd-section .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+}
+
+
+.wherewdbg {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #03A796;
+  position: absolute;
+  left: -100%;
+  top: 0;
+  background: url('../images/wherewd-ro.webp') no-repeat;
+  background-size: contain;
+  background-position: top left;
+  z-index: 1;
+}
+
+.wherewd-section .row {
+  z-index: 2;
+}
+
+.wherewd-section .content-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    height: 100%;
+    position: relative;
+}
+
+.wherewd-section .content-box h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 69px;
+    color: #000000;
+    margin-bottom: -35px;
+    z-index: 1;
+}
+
+/* .whowr-section .content-box .h1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 100px;
+} */
+
+
+
+.wherewd-section .content-box  .strok {
+    width: fit-content;
+    text-align: center;
+    font-size: 140px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(132, 207, 200, 0.7);
+    font-family: 'Work Sans';
+    position: relative;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 180px;
+    left: -50px;
+    top: -80px;
+    position: absolute;
+}
+
+
+.wherewd-section .content-box .findout-btn {
+
+    padding: 30px 56px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color:#03AD9B;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #03A796;
+    background-color: transparent;
+    z-index: +1;
+    max-width: 338px;
+}
+
+
+
+.wherewd-section .content-box .h1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 138px;
+    color: #000000;  
+    z-index: 1;  
+}
+
+.wherewd-section .content-box .h1.anima span.anima-underline {
+color: #000000;
+display: inline-block;
+overflow: hidden;
+position: relative;
+text-decoration: none;
+vertical-align: bottom;
+}
+
+.wherewd-section .content-box .h1.anima span.anima-underline:after {
+background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 5px no-repeat;
+content: "";
+height: 100%;
+right: 0;
+position: absolute;
+top: 0;
+width: 400%;
+will-change: transform;
+z-index: 1;
+-webkit-animation: underline-gradient 6s linear infinite;
+      animation: underline-gradient 6s linear infinite;
+background-image: linear-gradient(270deg, rgba(241,21,118,1) 0%, rgba(1,198,178,1) 20%, rgba(241,21,118,1) 40%, rgba(1,198,178,1) 60%, rgba(241,21,118,1) 80%, rgba(1,198,178,1) 100%);
+}
+
+
+@-webkit-keyframes underline-gradient {
+0% {
+transform: translate3d(0%, 0%, 0);
+}
+100% {
+transform: translate3d(75%, 0%, 0);
+}
+}
+
+@keyframes underline-gradient {
+0% {
+transform: translate3d(0%, 0%, 0);
+}
+100% {
+transform: translate3d(75%, 0%, 0);
+}
+}
+
+
+
+
+
+
+
+/* slider */
+
+
+.wherewd-section  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .wherewd-section .swiper-wrapper {
+    padding: 30px 0;
+  }
+
+  .wherewd-section .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    max-height: 320px;
+    display:flex;
+    background: transparent;
+    transition:all 200ms linear;
+  }
+
+  
+  .wherewd-section .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all .2s;
+  }
+  
+  .wherewd-section .swiper-slide.swiper-slide-next {
+    z-index: 1;
+  }
+
+  .wherewd-section .swiper-slide.swiper-slide-next img {
+    transform: scaleX(1.3) scaleY(1.2);
+  }
+
+
+ .wherewd-section .slide-box {
+    position: relative;
+  }
+
+.wherewd-section .swiper-slide .text-box {
+    position: absolute;
+    bottom: 30px;
+    padding: 20px;
+    left: 0;
+    width: 100%;
+    color: white;
+    align-items: flex-end;
+    text-align: right;
+    display: flex;
+    z-index: +2;
+    flex-direction: column;
+    text-align: left;
+}
+
+.wherewd-section .swiper-slide.swiper-slide-next .text-box {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    left: 0;
+    width: 100%;
+    color: white;
+    align-items: flex-start;
+    text-align: left;
+    display: flex;
+    z-index: +2;
+    flex-direction: column;
+}
+
+
+.wherewd-section .swiper-slide-active .text-box {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+.wherewd-section   .swiper-slide .text-box .text{ 
+    display: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.0886px;
+    line-height: 22px;
+    transition: all .2s;
+  }
+
+.wherewd-section .swiper-slide-next .text-box .text{
+        display: block;
+  }
+
+
+
+.wherewd-section .swiper-slide .text-box .heading{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.893813px;
+    text-transform: capitalize;
+    }
+
+.wherewd-section  .swiper-slide.swiper-slide-next .text-box .heading{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21.4515px;
+    line-height: 29px;
+    letter-spacing: 0.893813px;
+    text-transform: capitalize;
+    }
+
+
+.wherewd-section .swiper-button-prev, .swiper-button-next {
+    width: 200px !important;
+    opacity: 0;
+}
+/* end slider */
+
+
+.wherewd-section .findout-btn {
+
+    padding: 30px 56px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color:white;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #03A796;
+    background-color: #03A796;
+    z-index: +1;
+    max-width: 338px;
+    background: linear-gradient(180deg, #01C6B2 0%, #048D7F 128.35%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}

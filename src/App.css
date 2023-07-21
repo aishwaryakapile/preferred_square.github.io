@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-weight: 700;
+  src: local('Helvetica'), url(./font/FreeSansBold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  src: local('Helvetica'), url(./font/FreeSans.otf) format('truetype');
+}
+
+
+.desktop  {
+  display: block;
+}
+
+.mobile, .mobile-flex {
+  display: none;
+}
+
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 768px)  
+{
+  .desktop, .desktop-flex {
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+  }
+
+  .mobile-flex {
+    display: flex;
+  }
+
+
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+  .strok {
+    opacity: 0.6;
+  }
+}
+
+/* span.anima-underline {
+  position: relative;
+  overflow: hidden;
+}
+
+span.anima-underline:after {
+  background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 2px no-repeat;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+  z-index: 0;
+  -webkit-animation: underline-gradient 6s linear infinite;
+  animation: underline-gradient 6s linear infinite;
+  background-image: linear-gradient(90deg, rgba(122, 95, 255, 0.8) 15%, rgba(1, 255, 137, 0.6) 35%, rgba(122, 95, 255, 0.8) 85%);
+} */
+
+/*
+span.anima-underline {
+	  display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+span.anima-underline:after {
+  background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 2px no-repeat;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 400%;
+  will-change: transform;
+  z-index: 10;
+  -webkit-animation: underline-gradient 6s linear infinite;
+          animation: underline-gradient 6s linear infinite;
+  background-image: linear-gradient(90deg, rgba(122, 95, 255, 0.8) 15%, rgba(1, 255, 137, 0.6) 35%, rgba(122, 95, 255, 0.8) 85%);
+}
+*/
+/*
+@-webkit-keyframes underline-gradient {
+  0% {
+    transform: translate3d(0%, 0%, 0);
+  }
+  100% {
+    transform: translate3d(-75%, 0%, 0);
+  }
+}
+
+@keyframes underline-gradient {
+  0% {
+    transform: translate3d(0%, 0%, 0);
+  }
+  100% {
+    transform: translate3d(-75%, 0%, 0);
+  }
+} */
+
+
+
+
+
+@-webkit-keyframes underline-gradient {
+  0% {
+    transform: translate3d(0%, 0%, 0);
+  }
+  100% {
+    transform: translate3d(75%, 0%, 0);
+  }
+}
+
+@keyframes underline-gradient {
+  0% {
+    transform: translate3d(0%, 0%, 0);
+  }
+  100% {
+    transform: translate3d(75%, 0%, 0);
+  }
+}
+
+span.animate-underline {
+	  display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+span.animate-underline:after {
+	 background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 5px no-repeat;
+  content: "";
+  height: 100%;
+  right: 0;
+  position: absolute;
+  bottom: 25px;
+  width: 400%;
+  will-change: transform;
+  z-index: 1;
+  -webkit-animation: underline-gradient 6s linear infinite;
+          animation: underline-gradient 6s linear infinite;
+  background-image: linear-gradient(90deg, rgba(122, 95, 255, 0.8) 15%, rgba(1, 255, 137, 0.6) 35%, rgba(122, 95, 255, 0.8) 85%);
+  background-image:linear-gradient(90deg, #F11576 -1.79%, #01C6B2 116.46%);
+  background-image: linear-gradient(270deg, rgba(241,21,118,1) 0%, rgba(1,198,178,1) 20%, rgba(241,21,118,1) 40%, rgba(1,198,178,1) 60%, rgba(241,21,118,1) 80%, rgba(1,198,178,1) 100%);
+  /* transform: rotate(-90deg); */
+}
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.ms-20pr {
+  margin-left: 20%;
+}

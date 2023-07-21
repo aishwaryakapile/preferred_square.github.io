@@ -1,0 +1,371 @@
+.careerjob-section {
+    background-color: White;
+    width: 100%;
+    position: relative;
+    padding: 0px 0 0px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.careerjob-section .content-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    padding-right: 10%;
+    height: 100%;
+    color: #05304D;
+}
+
+.careerjob-section {
+    margin-bottom: 100px !important;
+    padding-bottom: 100px;
+}
+
+.careerjob-section .content-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    padding-right: 10%;
+    height: 100%;
+    position: relative;
+
+}
+
+.careerjob-section .content-box h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 69px;
+    z-index: 1;
+}
+
+.careerjob-section .content-box .h1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 100px;
+    z-index: 1;
+}
+
+.careerjob-section .content-box span.animate-underline:after {
+    bottom: 5px;
+}
+
+.careerjob-section .content-box .strok {
+    text-align: center;
+    font-size: 140px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #84CFC8B2;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 220px;
+    line-height: 180px;
+    left: 10%;
+    top: 25%;
+    /* left: 75px;
+    top: 230px; */
+    z-index: 0;
+    position: absolute;
+}
+
+
+/* accordian */
+.job-accordion {
+    border-radius: 0px 20px 20px 0px;
+    background: #FFF;
+}
+
+.job-accordian.gredient-border {
+    position: relative;
+    cursor: pointer;
+    max-width: 100%;
+    float: unset;
+    z-index: 1;
+}
+
+
+.job-accordian.gredient-border:before,
+.job-accordian.gredient-border:after {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    border-radius: 0px 20px 20px 0px;
+    display: block;
+    z-index: -1;
+}
+
+.job-accordian.active.gredient-border:before {
+    border-width: 2px 0 0 2px;
+    background: #11E9C7;
+    background: linear-gradient(45deg, #11E9C7, transparent);
+    left: -2px;
+    top: -3px;
+}
+
+.job-accordian.active.gredient-border:after {
+    border-width: 0 2px 2px 0;
+    background: #FE54BB;
+    background: linear-gradient(45deg, #FE54BB, transparent);
+    bottom: -3px;
+    right: -5px;
+}
+
+.job-accordian.gredient-border:before {
+    border-width: 2px 0 0 2px;
+    background: #FE54BB;
+    background: linear-gradient(45deg, #FE54BB, transparent);
+    left: -2px;
+    top: -3px;
+}
+
+.job-accordian.gredient-border:after {
+    border-width: 0 2px 2px 0;
+    background: #11E9C7;
+    background: linear-gradient(45deg, #11E9C7, transparent);
+    bottom: -3px;
+    right: -5px;
+}
+
+
+
+
+
+.job-accordian .accordion-header {
+    background: #FFF;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.job-accordian .accordion-header .heading {
+    color: #000;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.job-accordian .accordion-header img {
+    width: 100%;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.job-accordian .accordion-body {
+    padding: 0 18px 30px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.job-accordian .accordion-body.active {
+    height: auto;
+    display: block;
+}
+
+.job-accordian .accordion-body p {
+    color: #000000;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+
+.accordion-body p span {
+    color: #01C6B2;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.accordion-body a {
+    color: #25635C;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: 700;
+    line-height: 130%;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+/* For 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .careerjob-section .content-box h2 {
+        color: #000;
+        font-size: 26px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        left: 30%;
+        position: relative;
+        transform: translateY(20px);
+    }
+
+    .careerjob-section .content-box .h1 {
+        color: #000;
+        font-size: 50px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        left: 30%;
+        position: relative;
+        /* text-align: center; */
+        /* top: 10%;
+        position: relative; */
+    }
+
+    .careerjob-section .content-box .strok {
+        font-size: 60px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        left: 40%;
+        top: 25%;
+        position: absolute;
+    }
+
+    .careerjob-section .content-box span.animate-underline {
+        top: -10%;
+        left: 0%;
+    }
+
+    .careerjob-section .content-box span.animate-underline::after {
+        bottom: -15px;
+    }
+
+    .job-accordian .accordion-header .heading {
+        color: #000;
+        font-size: 20px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .accordion-body p span,.job-accordian .accordion-body p  {
+        text-align: justify;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        text-transform: capitalize;
+    }
+
+
+
+    .accordion-body a {
+        font-size: 18px;
+        line-height: 130%;
+        font-weight: 700;
+    }
+    .job-accordian .accordion-header img {
+        height: 105px;
+    }
+    .careerjob-section {
+        margin-bottom: 6px !important;
+        padding-bottom: 6px;
+    }
+}
+
+/* For 640 Resolution */
+@media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
+    .careerjob-section .content-box h2 {
+        color: #000;
+        font-size: 26px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        left: 30%;
+        position: relative;
+        transform: translateY(20px);
+    }
+
+    .careerjob-section .content-box .h1 {
+        color: #000;
+        font-size: 50px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        left: 30%;
+        position: relative;
+        /* text-align: center; */
+        /* top: 10%;
+        position: relative; */
+    }
+
+    .careerjob-section .content-box .strok {
+        font-size: 60px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        left: 40%;
+        top: 25%;
+        position: absolute;
+    }
+
+    .careerjob-section .content-box span.animate-underline {
+        top: -10%;
+        left: 0%;
+    }
+
+    .careerjob-section .content-box span.animate-underline::after {
+        bottom: -15px;
+    }
+
+    .job-accordian .accordion-header .heading {
+        color: #000;
+        font-size: 20px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .accordion-body p span,.job-accordian .accordion-body p  {
+        text-align: justify;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        text-transform: capitalize;
+    }
+
+
+    .accordion-body a {
+        font-size: 18px;
+        line-height: 130%;
+        font-weight: 700;
+    }
+    .job-accordian .accordion-header img {
+        height: 105px;
+    }
+    .careerjob-section {
+        margin-bottom: 6px !important;
+        padding-bottom: 6px;
+    }
+}

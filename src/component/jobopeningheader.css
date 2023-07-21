@@ -1,0 +1,85 @@
+.header-JobOpening {
+    width: 100%;
+    min-height: 50vh;
+    position: relative;
+    background: linear-gradient(172deg, #041E30 0%, #000 100%);
+    /* fill: linear-gradient(172deg, #041E30 0%, #000 100%); */
+    /* background-position: top left; */
+    /* background-size: cover; */
+}
+header.header-JobOpening .hero {
+    min-height: 50vh;
+    position: relative;
+    z-index: 2;
+
+}
+
+header.header-JobOpening .hero-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+header.header-JobOpening .hero-text {
+    padding-left: 5px;
+    /* border-left:5px solid #F11576; */
+    position: relative;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+header.header-JobOpening .hero-text:before {
+    content: "";
+    width: 6px;
+    background: #F11576;
+    height: 90%;
+    position: absolute;
+    top: 2%;
+    left: -10px;
+}
+
+header.header-JobOpening .hero-text h6{ 
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 70%;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+header.header-JobOpening .hero-text h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 97.99%;
+    letter-spacing: 1px;
+    color: #F9F5AA;
+}
+
+header.header-JobOpening .hero-text h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 97.99%;
+    letter-spacing: 1px;    
+    color: #ffffff;
+}
+/* header.header-JobOpening .hero-text .spanh2{
+    color: #F9F5AA;
+} */
+header.header-JobOpening .navbar-nav a {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.393478px;
+    color: #FFFFFF;
+}

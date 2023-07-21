@@ -1,0 +1,554 @@
+.potential-section .content-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    padding-right: 10%;
+    height: 100%;
+}
+
+.potential-section {
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+.potential-section .content-box .h3 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 65px;
+    text-transform: capitalize;
+    color: #05304D;
+    transform: translateY(40px);
+    margin-left: 28px;
+}
+
+.potential-section .content-box .strok {
+    width: fit-content;
+    text-align: center;
+    font-size: 160px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(132, 207, 200, 0.7);
+    -webkit-text-stroke: 1px rgba(132, 207, 200, 0.7);
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 160px; */
+    text-transform: capitalize;
+    line-height: 180px;
+    left: 60px;
+    top: 5px;
+    position: absolute;
+    z-index: -1;
+    white-space: nowrap;
+}
+
+
+.potential-section .content-box h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 69px;
+
+    color: #05304D;
+}
+
+.potential-section .content-box .h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 141px;
+    /* text-transform: capitalize; */
+    color: #05304D;
+}
+
+
+.potential-section .content-box .h1.anima span.anima-underline {
+    color: #05304D;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    vertical-align: bottom;
+    margin-left: 25px;
+}
+
+.potential-section .content-box .h1.anima span.anima-underline:after {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 5px no-repeat;
+    content: "";
+    height: 100%;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 400%;
+    will-change: transform;
+    z-index: 2;
+    -webkit-animation: underline-gradient 6s linear infinite;
+    animation: underline-gradient 6s linear infinite;
+    background-image: linear-gradient(270deg, rgba(241, 21, 118, 1) 0%, rgba(1, 198, 178, 1) 20%, rgba(241, 21, 118, 1) 40%, rgba(1, 198, 178, 1) 60%, rgba(241, 21, 118, 1) 80%, rgba(1, 198, 178, 1) 100%);
+}
+
+.potential-section p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 130%;
+    /* or 45px */
+
+    text-align: justify;
+    margin-left: 34px;
+
+    color: #000000;
+}
+
+.potential-section .mobile {
+    display: none;
+}
+
+/* For 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .potential-section .desktop {
+        display: none !important;
+    }
+
+    .potential-section .mobile {
+        display: block;
+    }
+
+    .potential-section .content-box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        vertical-align: middle;
+        width: 320px;
+        margin: auto;
+        /* padding-right: 10%; */
+        /* height: 100%; */
+    }
+
+    .potential-section .content-box .strok {
+        width: fit-content;
+        text-align: center;
+        font-size: 60px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px rgba(132, 207, 200, 0.7);
+        -webkit-text-stroke: 1px rgba(132, 207, 200, 0.7);
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        /* font-size: 160px; */
+        text-transform: capitalize;
+        line-height: 70px; 
+        left: 30px;
+        top: 0px;
+        position: absolute; 
+        z-index: -1;
+
+    }
+
+    .potential-section .content-box .h3 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        font-family: Helvetica;
+        /* line-height: 65px; */
+        text-transform: capitalize;
+        color: #000;
+        transform: translateY(-12px);
+        margin-left: 33px;  
+    }
+
+    .potential-section .content-box .h1 {
+        color: #000;
+        font-size: 50px;
+        font-family: Helvetica;
+        font-weight: 700;
+        line-height: 0px; 
+        position: relative;
+        top: -10%;
+        left: 30px;
+    }
+
+    .potential-section .ml{
+        position: relative;
+        left: -25px;
+        line-height: 90px;
+    }
+    .potential-section .content-box .h1.anima span.anima-underline {
+        color: #000;
+        font-size: 50px;
+        line-height: 90px;
+        font-family: Helvetica;
+        font-weight: 700;
+    }
+    .potential-section .content-box .h1.anima span.anima-underline:after {
+        background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 5px no-repeat;
+        content: "";
+        height: 100%;
+        right: 0;
+        position: absolute;
+        top: 0;
+        width: 400%;
+        will-change: transform;
+        z-index: 1;
+        -webkit-animation: underline-gradient 6s linear infinite;
+        animation: underline-gradient 6s linear infinite;
+        background-image: linear-gradient(270deg, rgba(241, 21, 118, 1) 0%, rgba(1, 198, 178, 1) 20%, rgba(241, 21, 118, 1) 40%, rgba(1, 198, 178, 1) 60%, rgba(241, 21, 118, 1) 80%, rgba(1, 198, 178, 1) 100%);
+    }
+
+    .potential-section p {
+        color: #000;
+        font-size: 16px !important;
+        font-family: Helvetica;
+        line-height: 150%;
+        margin-left: 0px;
+    }
+    .potential-section .content-box .h1.anima span.anima-underline:after {
+        position: absolute;
+    top: 28%;
+    }
+    .margin-top{
+        position: absolute;
+    top: 28%;
+    }
+}
+
+
+/* For 640 Resolution */
+@media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
+    /* STYLES GO HERE */
+    .potential-section .desktop {
+        display: none !important;
+    }
+
+    .potential-section .mobile {
+        display: block;
+    }
+
+    .potential-section .content-box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        vertical-align: middle;
+        width: 320px;
+        margin: auto;
+ 
+        /* padding-right: 10%; */
+        /* height: 100%; */
+    }
+
+    .potential-section .content-box .strok {
+        width: fit-content;
+        text-align: center;
+        font-size: 60px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px rgba(132, 207, 200, 0.7);
+        -webkit-text-stroke: 1px rgba(132, 207, 200, 0.7);
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        /* font-size: 160px; */
+        text-transform: capitalize;
+        line-height: 70px; 
+        left: 30px;
+        top: 0px;
+        position: absolute; 
+        z-index: -1;
+
+    }
+
+    .potential-section .content-box .h3 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        font-family: Helvetica;
+        /* line-height: 65px; */
+        text-transform: capitalize;
+        color: #000;
+        transform: translateY(-12px);
+        margin-left: 33px;  
+    }
+
+     .potential-section .content-box .h1 {
+        color: #000;
+        font-size: 50px;
+        font-family: Helvetica;
+        font-weight: 700;
+        line-height: 0px; 
+        position: relative;
+        top: -10%;
+        left: 30px;
+    }
+
+    .potential-section .ml{
+        position: relative;
+        left: -25px;
+        line-height: 90px;
+    }
+    .potential-section .content-box .h1.anima span.anima-underline {
+        color: #000;
+        font-size: 50px;
+        line-height: 90px;
+        font-family: Helvetica;
+        font-weight: 700;
+    }
+    .potential-section .content-box .h1.anima span.anima-underline:after {
+        background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 5px no-repeat;
+        content: "";
+        height: 100%;
+        right: 0;
+        position: absolute;
+        top: 0;
+        width: 400%;
+        will-change: transform;
+        z-index: 1;
+        -webkit-animation: underline-gradient 6s linear infinite;
+        animation: underline-gradient 6s linear infinite;
+        background-image: linear-gradient(270deg, rgba(241, 21, 118, 1) 0%, rgba(1, 198, 178, 1) 20%, rgba(241, 21, 118, 1) 40%, rgba(1, 198, 178, 1) 60%, rgba(241, 21, 118, 1) 80%, rgba(1, 198, 178, 1) 100%);
+    }
+
+    .potential-section p {
+        color: #000;
+        font-size: 16px !important;
+        font-family: Helvetica;
+        line-height: 150%;
+        margin-left: 0px;
+    }
+    .potential-section .content-box .h1.anima span.anima-underline:after {
+        position: absolute;
+    top: 28%;
+    }
+    .margin-top{
+        position: absolute;
+    top: 28%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1080px) {
+    .potential-section .content-box {
+        left: -57px;
+    }
+    .potential-section .content-box .h3 {
+       
+        font-size: 38.5px;
+        line-height: 45.5px;
+        transform: translateY(20px);
+        margin-left: 28px;
+    }
+    
+    .potential-section .content-box .strok {
+        font-size: 112px;
+        line-height: 126px;
+        left: 60px;
+        top: 5px;
+        white-space: nowrap;
+    }
+    
+    
+    .potential-section .content-box h2 {       
+        font-size: 42px;
+        line-height: 48.3px;
+    }
+    
+    .potential-section .content-box .h1 {
+        font-size: 84px;
+        line-height: 98.7px;
+    }
+    .potential-section p {
+        font-size: 18.9px;
+        line-height: 91%;
+       transform: translateY(20px);
+       margin-left: 0px;
+
+    }
+    
+}
+@media (min-width: 1080px) and (max-width: 1280px) {
+    .potential-section .content-box {
+        left: -34px;
+    }
+    .potential-section .content-box .h3 {
+       
+        font-size: 41.25px;
+        line-height: 48.75px;
+        transform: translateY(20px);
+        margin-left: 28px;
+    }
+    
+    .potential-section .content-box .strok {
+        font-size: 120px;
+        line-height: 135px;
+        left: 60px;
+        top: 5px;
+        white-space: nowrap;
+    }
+    
+    
+    .potential-section .content-box h2 {       
+        font-size: 45px;
+        line-height: 51.75px;
+    }
+    
+    .potential-section .content-box .h1 {
+        font-size: 90px;
+        line-height: 105.75px;
+    }
+    .potential-section p {
+        font-size: 20.25px;
+        line-height: 97.5%;
+       transform: translateY(20px);
+       margin-left: 0px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1360px) {
+    .potential-section .content-box {
+        left: -30px;
+    }
+    .potential-section .content-box .h3 {
+       
+        font-size: 44px;
+        line-height: 52px;
+        transform: translateY(20px);
+        margin-left: 28px;
+    }
+    
+    .potential-section .content-box .strok {
+        font-size: 128px;
+        line-height: 144px;
+        left: 60px;
+        top: 5px;
+        white-space: nowrap;
+    }
+    
+    
+    .potential-section .content-box h2 {       
+        font-size: 48px;
+        line-height: 55.2px;
+    }
+    
+    .potential-section .content-box .h1 {
+        font-size: 96px;
+        line-height: 112.8px;
+    }
+    .potential-section p {
+        font-size: 21.6px;
+        line-height: 104%;
+       transform: translateY(20px);
+       margin-left: 0px;
+    }
+}
+@media (min-width: 1360px) and (max-width: 1440px) {
+    .potential-section .content-box {
+        left: -30px;
+    }
+    .potential-section .content-box .h3 {
+       
+        font-size:46.75px;
+        line-height: 55.25px;
+        transform: translateY(20px);
+        margin-left: 28px;
+    }
+    
+    .potential-section .content-box .strok {
+        font-size:136px;
+        line-height: 153px;
+        left: 60px;
+        top: 5px;
+        white-space: nowrap;
+    }
+    
+    
+    .potential-section .content-box h2 {       
+        font-size: 51px;
+        line-height: 58.65px;
+    }
+    
+    .potential-section .content-box .h1 {
+        font-size: 102px;
+        line-height: 119.85px;
+    }
+    .potential-section p {
+        font-size: 22.95px;
+        line-height: 110.5%;
+       transform: translateY(20px);
+       margin-left: 0px;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1680px) {
+    .potential-section .content-box {
+        left: -30px;
+    }
+    .potential-section .content-box .h3 {
+        font-size:49.5px;
+        line-height: 58.5px;
+        transform: translateY(20px);
+        margin-left: 28px;
+    }
+    
+    .potential-section .content-box .strok {
+        font-size:144px;
+        line-height: 162px;
+        left: 60px;
+        top: 5px;
+        white-space: nowrap;
+    }
+    
+    
+    .potential-section .content-box h2 {       
+        font-size: 54px;
+        line-height: 62.1px;
+    }
+    
+    .potential-section .content-box .h1 {
+        font-size: 108px;
+        line-height: 126.9px;
+    }
+    .potential-section p {
+        font-size: 24.3px;
+        line-height: 117%;
+       transform: translateY(20px);
+       margin-left: 0px;
+    }
+}
+@media (min-width: 1680px) and (max-width: 1919px) {
+    .potential-section .content-box {
+        left: -30px;
+    }
+    .potential-section .content-box .h3 {
+        font-size:52.25px;
+        line-height: 61.75px;
+        transform: translateY(20px);
+        margin-left: 28px;
+    }
+    
+    .potential-section .content-box .strok {
+        font-size:152px;
+        line-height: 171px;
+        left: 60px;
+        top: 5px;
+        white-space: nowrap;
+    }
+    
+    
+    .potential-section .content-box h2 {       
+        font-size: 57px;
+        line-height: 65.55px;
+    }
+    
+    .potential-section .content-box .h1 {
+        font-size: 114px;
+        line-height: 133.95px;
+    }
+    .potential-section p {
+        font-size:25.65px;
+        line-height: 123.5%;
+       transform: translateY(20px);
+       margin-left: 0px;
+    }
+}

@@ -1,0 +1,564 @@
+.solutionbox-section {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.solutionbox-section .sol-box {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    background-position: top left !important;
+    background-size: cover !important;
+}
+
+.solutionbox-section .box1 {
+    background: url('../images/sbox1.webp') no-repeat;
+}
+
+.solutionbox-section .box2 {
+    background: url('../images/sbox2.webp') no-repeat;
+
+}
+
+.solutionbox-section .box3 {
+    background: url('../images/sbox3.webp') no-repeat;
+
+}
+
+.solutionbox-section .box4 {
+    background: url('../images/sbox4.webp') no-repeat;
+
+}
+
+.solutionbox-section .box5 {
+    background: url('../images/sbox5.webp') no-repeat;
+
+}
+
+.solutionbox-section .box6 {
+    background: url('../images/sbox6.webp') no-repeat;
+
+}
+
+.solutionbox-section .box7 {
+    background: url('../images/sbox7.webp') no-repeat;
+
+}
+
+.solutionbox-section .box8 {
+    background: url('../images/sbox8.webp') no-repeat;
+
+}
+
+.solutionbox-section .sol-box.white {
+    color: #ffffff;
+}
+
+.solutionbox-section .sol-box.black {
+    color: #202020;
+}
+
+.solutionbox-section .s-box .text-box h4 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    text-transform: capitalize;
+}
+
+
+.solutionbox-section .s-box .text-box p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+.solutionbox-section .e-box {
+    border-left: 1px solid #ffffff;
+}
+
+/* box form */
+
+/* form */
+
+.solutionbox-section .box-list ul.list {
+    padding: 0 0 3rem 0;
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.solutionbox-section .box-list ul.list li {
+    padding: 15px 0px 15px 35px;
+    margin: 15px 0px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+.solutionbox-section .box-list button {
+    padding: 20px 35px;
+    color: #ffffff;
+    background: linear-gradient(180deg, #01C6B2 0%, #048D7F 128.35%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    text-align: right;
+
+
+    background: linear-gradient(180deg, #01C6B2 0%, #048D7F 128.35%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+.hover-box {
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.hover-box .s-box {
+    order: 1;
+}
+
+.hover-box .e-box {
+    order: 0;
+    opacity: 0;
+}
+
+
+/* .hover-box .s-box { 
+    transition-property: opacity, order;
+    transition-delay: 0.3s,0s; 
+    transition: all .3s;
+  } */
+
+/* .hover-box .e-box {
+    transition-property: opacity, order;
+    transition-delay: 0.3s,0s; 
+    transition: all .1s ease-in;    
+  }  */
+
+
+.hover-box:hover .s-box {
+    order: 0;
+    display: block;
+    /* animation-name: blink;
+        animation-duration: 0.1s; */
+}
+
+.hover-box:hover .s-box p {
+    display: none;
+}
+
+.hover-box:hover .e-box {
+    opacity: 1;
+    /* animation-name: blink;
+    animation-duration: 0.1s; */
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*or 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .solutionbox-section .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .solutionbox-section .sol-box {
+        height: auto;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .hover-box .s-box {
+        order: 0;
+    }
+
+    .hover-box .s-box  {
+        display: block;
+        opacity: 1;
+    }
+
+    .hover-box .e-box  {
+        display: none;
+        border: none;
+    }
+
+    .hover-box .e-box.mb-block  {
+        display: block !important;
+        opacity: 1;
+    }
+    
+    .hover-box:hover .s-box p {
+        display: block;
+    }
+
+    .solutionbox-section  .sol-box {
+        min-height: 550px;
+        padding: 15px 15px 0px;
+    }
+
+    .solutionbox-section .sol-box p.seemore {
+        color: #03AD9B !important;
+        text-align: right;
+        font-family: Helvetica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: underline;
+    }
+
+    .solutionbox-section  .sol-box .justify-content-end {
+        align-items: center;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 49.36%, #000 100%);
+    }
+
+    .solutionbox-section .text-box{
+        /* position: absolute; */
+        height: 100%;
+       
+    }
+
+    .solutionbox-section .s-box .text-box h4 {
+        color: #FFF;
+        font-size: 26px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .solutionbox-section .s-box .text-box p {
+        color: #FFF;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+  
+    .solutionbox-section .box-list ul.list {
+        padding: 0 0 1rem 0;
+        margin-bottom: 0rem;
+    }
+    
+    .solutionbox-section .box-list ul.list li {
+        margin: 4px 0px;
+        background: #0F1F29;
+    }
+}
+
+/* For 640 Resolution */
+@media only screen and (min-device-width : 480px) and (max-device-width : 680px) {
+    .solutionbox-section .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .solutionbox-section .sol-box {
+        height: auto;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .hover-box .s-box {
+        order: 0;
+    }
+
+    .hover-box .s-box  {
+        display: block;
+        opacity: 1;
+    }
+
+    .hover-box .e-box  {
+        display: none;
+        border: none;
+    }
+
+    .hover-box .e-box.mb-block  {
+        display: block !important;
+        opacity: 1;
+    }
+    
+    .hover-box:hover .s-box p {
+        display: block;
+    }
+
+    .solutionbox-section  .sol-box {
+        min-height: 550px;
+        padding: 15px 15px 0px;
+    }
+
+    .solutionbox-section .sol-box p.seemore {
+        color: #03AD9B !important;
+        text-align: right;
+        font-family: Helvetica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: underline;
+    }
+
+    .solutionbox-section  .sol-box .justify-content-end {
+        align-items: center;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 49.36%, #000 100%);
+    }
+
+    .solutionbox-section .text-box{
+        /* position: absolute; */
+        height: 100%;
+       
+    }
+
+    .solutionbox-section .s-box .text-box h4 {
+        color: #FFF;
+        font-size: 26px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .solutionbox-section .s-box .text-box p {
+        color: #FFF;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+  
+    .solutionbox-section .box-list ul.list {
+        padding: 0 0 1rem 0;
+        margin-bottom: 0rem;
+    }
+    
+    .solutionbox-section .box-list ul.list li {
+        margin: 4px 0px;
+        background: #0F1F29;
+    }
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1080px) {
+    .solutionbox-section .s-box .text-box h4 {
+        font-size: 21px;
+        line-height: 23.8px;
+    }
+
+    .solutionbox-section .s-box .text-box p {
+        font-size: 12.6px;
+        line-height: 14.7px;
+    }
+
+    .solutionbox-section .box-list ul.list {
+        padding: 0 0 1rem 0;
+        margin-bottom: 1rem;
+    }
+
+    .solutionbox-section .box-list ul.list li {
+        padding: 5px 0px 5px 15px;
+        font-size: 12.6px;
+        line-height: 14.7px;
+    }
+
+
+    .solutionbox-section .box-list button {
+        padding: 10px 14px;
+    }
+}
+
+@media (min-width: 1080px) and (max-width: 1280px) {
+    .solutionbox-section .s-box .text-box h4 {
+        font-size: 22.5px;
+        line-height: 25.5px;
+    }
+
+    .solutionbox-section .s-box .text-box p {
+        font-size: 13.5px;
+        line-height: 15.75px;
+    }
+
+    .solutionbox-section .box-list ul.list {
+        padding: 0 0 1rem 0;
+        margin-bottom: 1rem;
+    }
+
+    .solutionbox-section .box-list ul.list li {
+        padding: 7px 0px 7px 15px;
+        font-size: 13.5px;
+        line-height: 15.75px;
+    }
+
+
+    .solutionbox-section .box-list button {
+        padding: 12px 16px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1360px) {
+    .solutionbox-section .s-box .text-box h4 {
+        font-size: 24;
+        line-height: 27.2px;
+    }
+
+    .solutionbox-section .s-box .text-box p {
+        font-size: 14.4px;
+        line-height: 16.8px;
+    }
+
+    .solutionbox-section .box-list ul.list {
+        padding: 0 0 1.2rem 0;
+        margin-bottom: 1.2rem;
+    }
+
+    .solutionbox-section .box-list ul.list li {
+        padding: 8px 0px 8px 15px;
+        font-size: 14.4px;
+        line-height: 16.8px;
+    }
+
+
+    .solutionbox-section .box-list button {
+        padding: 12px 16px;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1440px) {
+    .solutionbox-section .s-box .text-box h4 {
+        font-size: 25.5;
+        line-height: 28.9px;
+    }
+
+    .solutionbox-section .s-box .text-box p {
+        font-size: 15.3px;
+        line-height: 17.85px;
+    }
+
+    .solutionbox-section .box-list ul.list {
+        padding: 0 0 1.5rem 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .solutionbox-section .box-list ul.list li {
+        padding: 12px 0px 12px 18px;
+        font-size: 15.3px;
+        line-height: 17.85px;
+    }
+
+
+    .solutionbox-section .box-list button {
+        padding: 14px 20px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1680px) {
+    
+    .solutionbox-section .s-box .text-box h4 {
+        font-size: 27;
+        line-height: 30.6px;
+    }
+
+    .solutionbox-section .s-box .text-box p {
+        font-size: 16.2px;
+        line-height: 18.9px;
+    }
+
+    .solutionbox-section .box-list ul.list {
+        padding: 0 0 2rem 0;
+        margin-bottom: 2rem;
+    }
+
+    .solutionbox-section .box-list ul.list li {
+        padding: 15px 0px 15px 25px;
+        font-size: 16.2px;
+        line-height: 18.9px;
+    }
+
+
+    .solutionbox-section .box-list button {
+        padding: 14px 20px;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1919px) {
+   
+    .solutionbox-section .s-box .text-box h4 {
+        font-size: 28.5;
+        line-height: 32.3px;
+    }
+
+    .solutionbox-section .s-box .text-box p {
+        font-size: 17.1px;
+        line-height: 19.95px;
+    }
+
+    .solutionbox-section .box-list ul.list {
+        padding: 0 0 2.5rem 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .solutionbox-section .box-list ul.list li {
+        padding: 15px 0px 15px 25px;
+        font-size: 17.1px;
+        line-height: 19.95px;
+    }
+
+
+    .solutionbox-section .box-list button {
+        padding: 18px 25px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1920px) {}
+

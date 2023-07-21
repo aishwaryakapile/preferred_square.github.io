@@ -1,0 +1,16 @@
+.news-section .img-div img{
+    width: 100%;
+}
+.news-section .botm-border{
+    position: relative;
+}
+.news-section .botm-border::after{
+    content: '';
+    position: absolute;
+    width: 359px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #172B4D;
+    top: 65%;
+    left: 2%;
+}

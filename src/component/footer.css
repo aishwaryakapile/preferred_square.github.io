@@ -1,0 +1,158 @@
+footer {
+    background: #0A142F;
+}
+
+
+footer ul.footer-menu {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul.footer-menu li {
+    margin: 0px 10px;
+    display: inline-flex;
+    gap: 10px;
+}
+
+footer ul.footer-menu li a {
+    font-family: 'Helvetica';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.copytight-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+footer ul.social-icons {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul.social-icons li {
+    margin: 0px 20px;
+    display: inline-flex;
+    gap: 10px;
+}
+
+footer hr {
+    border-color: rgba(241, 21, 118, 0.4);
+    opacity: 1;
+    margin-top: 0.5rem;
+}
+
+.hr-first {
+    margin-left: 10%;
+}
+
+/* For 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    footer .mobile-links li a {
+        color: #FFF;
+        font-size: 12px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none !important;
+    }
+
+    footer .mobile-links li {
+        list-style-type: none;
+        padding-bottom: 30px;
+    }
+
+    footer .mobile-links .linkleft {
+        padding-left: 30px;
+    }
+    footer .mobile-links .linkright{
+        padding-left: 40px;
+    }
+
+    footer .copytight-text {
+        color: #6E828F;
+        text-align: center;
+        font-size: 12px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    footer .linkedin-icon{
+        padding-left: 20px;
+    }
+    footer .mobile .bottom-footer{
+        padding-bottom: -20px !important;
+        margin-bottom: -20px;
+    }
+
+    footer .mobile .bottom-footer{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    footer .mobile .bottom-footer hr {
+        width: 25%;
+    } 
+
+}
+
+/* For 640 Resolution */
+@media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
+    footer .mobile-links li a {
+        color: #FFF;
+        font-size: 12px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none !important;
+    }
+
+    footer .mobile-links li {
+        list-style-type: none;
+        padding-bottom: 30px;
+    }
+
+    footer .mobile-links .linkleft {
+        padding-left: 30px;
+    }
+    footer .mobile-links .linkright{
+        padding-left: 40px;
+    }
+
+    footer .copytight-text {
+        color: #6E828F;
+        text-align: center;
+        font-size: 12px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    footer .linkedin-icon{
+        padding-left: 20px;
+    }
+    footer .mobile .bottom-footer{
+        padding-bottom: -20px !important;
+        margin-bottom: -20px;
+    }
+}

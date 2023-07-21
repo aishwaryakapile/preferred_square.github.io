@@ -1,0 +1,522 @@
+.knowledge-section {
+  background-color: White;
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.knowledge-section .tab-row {
+  border-bottom: 1px solid #D9D9D9;
+}
+
+
+/* Style the tab */
+.knowledge-section .tab {
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+.knowledge-section .tab .tablinks {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  text-align: center;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+
+.knowledge-section .tab .tablinks.active {
+  border-bottom: 5px solid #F11576;
+}
+
+.knowledge-section .tab .tablinks img,
+.knowledge-section .tab .tablinks svg {
+  margin: auto;
+  display: none;
+}
+
+.knowledge-section .tab .tablinks.active img,
+.knowledge-section .tab .tablinks.active svg {
+  display: block;
+}
+
+.knowledge-section .tab .tablinks p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #929292;
+}
+
+.knowledge-section .tab .tablinks.active p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #05304D;
+
+}
+
+
+/* Style the tab content */
+.knowledge-section .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+.knowledge-section .tabcontent.active {
+  transition: display 2s ease-in-out;
+  display: block;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.knowledge-section .tabcontent .sol-box {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  background-position: top left !important;
+  background-size: cover !important;
+}
+
+.knowledge-section .tabcontent .sol-box.d-bg-box {
+  background: linear-gradient(121.92deg, #041E30 13.01%, #000000 74.52%);
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.knowledge-section .tabcontent .sol-box.black {
+  color: #202020;
+}
+
+.knowledge-section .tabcontent .sol-box.white {
+  color: #ffffff;
+}
+
+.knowledge-section .tabcontent .ser-box3 {
+  background: url('../images/case-study.webp') no-repeat;
+}
+
+
+
+.knowledge-section .tabcontent .sol-box.d-bg-box h4 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 41.3504px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.knowledge-section .tabcontent .sol-box.d-bg-box p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 33.0804px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.knowledge-section .tabcontent .sol-box.d-bg-box p.anima {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1px;
+  line-height: 15px;
+  color: #FFFFFF;
+
+}
+
+.knowledge-section .tabcontent .sol-box.d-bg-box p.anima span.anima-underline {
+  color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 179px;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+
+.knowledge-section .tabcontent .sol-box.d-bg-box p.anima span.anima-underline:after {
+  background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 5px no-repeat;
+  content: "";
+  height: 100%;
+  margin-top: 0px;
+  right: 0;
+  position: absolute;
+  top: 0;
+  width: 400%;
+  will-change: transform;
+  z-index: 1;
+  -webkit-animation: underline-gradient 6s linear infinite;
+  animation: underline-gradient 6s linear infinite;
+  background-image: linear-gradient(270deg, rgba(241, 21, 118, 1) 0%, rgba(1, 198, 178, 1) 20%, rgba(241, 21, 118, 1) 40%, rgba(1, 198, 178, 1) 60%, rgba(241, 21, 118, 1) 80%, rgba(1, 198, 178, 1) 100%);
+
+}
+
+.knowledge-section .tabcontent .sol-box.d-bg-box .findout-btn {
+  padding: 25px 40px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.8862px;
+  line-height: 17px;
+  color: #03AD9B;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid #03A796;
+  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.25));
+  z-index: +1;
+  max-width: 251px;
+}
+
+/* For 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .knowledge-section {
+    background-color: White;
+    width: 100%;
+    position: relative;
+    padding: 0px 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  .knowledge-section .tab {
+    /* display: flex;
+justify-content: center;
+align-items: center; */
+    margin-top: 16px;
+  }
+
+  .knowledge-section .tabcontent {
+    width: 100% !important;
+  }
+
+  .knowledge-section .tab .tablinks p {
+    color: #929292;
+    text-align: center;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .knowledge-section .tab .tablinks.active p {
+    color: #05304D;
+    text-align: center;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 11px;
+  }
+
+  .knowledge-section .tabcontent .sol-box.d-bg-box h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .knowledge-section .tabcontent .sol-box.d-bg-box p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .knowledge-section .tabcontent .sol-box.d-bg-box .findout-btn {
+    display: flex;
+    width: 180px;
+    height: 48px;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    padding: 25px 5px;
+  }
+
+  .knowledge-section .mob-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .knowledge-section .mobilepadding {
+    padding: 40px 14px !important;
+    margin-top: -18px;
+  }
+
+  .knowledge-section .tabcontent .sol-box {
+
+    padding: 0;
+  }
+
+  .knowledge-section .tabcontent .sol-box .empty-para {
+    /* padding-top: 90px !important; */
+    padding-bottom: 250px !important;
+  }
+
+  .knowledge-section .tabcontent {
+    display: none;
+    padding: 6px 0px !important;
+    /* width: 100%; */
+  }
+
+  .knowledge-section .col {
+    width: 100%;
+  }
+
+  .knowledge-section .row {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px !important;
+    margin-right: 0px;
+  }
+
+  .knowledge-section .container {
+    padding: 0px;
+    margin: auto;
+  }
+
+  .knowledge-section .col-md-12 {
+    padding-right: 0px;
+  }
+
+  .knowledge-section .tab .tablinks {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+
+
+}
+
+/* For 640 Resolution */
+@media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
+  .knowledge-section {
+    background-color: White;
+    width: 100%;
+    position: relative;
+    padding: 0px 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  .knowledge-section .tab {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 16px;
+  }
+
+  .knowledge-section .tab .tablinks p {
+    color: #929292;
+    text-align: center;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .knowledge-section .tab .tablinks.active p {
+    color: #05304D;
+    text-align: center;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .knowledge-section .tabcontent .sol-box.d-bg-box h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .knowledge-section .tabcontent .sol-box.d-bg-box p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .knowledge-section .tabcontent .sol-box.d-bg-box .findout-btn {
+    display: flex;
+    width: 180px;
+    height: 48px;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    padding: 25px 5px;
+  }
+
+  .knowledge-section .mob-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .knowledge-section .mobilepadding {
+    padding: 40px 14px !important;
+    margin-top: -18px;
+  }
+
+  .knowledge-section .tabcontent .sol-box {
+
+    padding: 0;
+  }
+
+  .knowledge-section .tabcontent .sol-box .empty-para {
+    /* padding-top: 90px !important; */
+    padding-bottom: 250px !important;
+  }
+
+  .knowledge-section .tabcontent {
+    display: none;
+    padding: 6px 0px !important;
+    /* width: 100%; */
+  }
+
+  .knowledge-section .col {
+    width: 100%;
+  }
+
+  .knowledge-section .row {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px !important;
+    margin-right: 0px;
+  }
+
+  .knowledge-section .container {
+    padding: 0px;
+    margin: auto;
+  }
+
+  .knowledge-section .col-md-12 {
+    padding-right: 0px;
+  }
+
+  .knowledge-section .tab .tablinks {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1080px) {
+
+  .knowledge-section .tab .tablinks p,
+  .knowledge-section .tab .tablinks.active p {
+    font-size: 28px;
+    line-height: 32.2px;
+  }
+
+}
+@media (min-width: 1080px) and (max-width: 1280px) {
+  
+  .knowledge-section .tab .tablinks p,
+  .knowledge-section .tab .tablinks.active p {
+    font-size: 30px;
+    line-height: 34.5px;
+  }
+
+}
+@media (min-width: 1280px) and (max-width: 1360px) {
+  .knowledge-section .tab .tablinks p,
+  .knowledge-section .tab .tablinks.active p {
+    font-size: 32px;
+    line-height: 36.8px;
+  }
+
+}
+@media (min-width: 1360px) and (max-width: 1440px) {
+  .knowledge-section .tab .tablinks p,
+  .knowledge-section .tab .tablinks.active p {
+    font-size: 34px;
+    line-height: 39.1px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1680px) {
+  .knowledge-section .tab .tablinks p,
+  .knowledge-section .tab .tablinks.active p {
+    font-size: 36px;
+    line-height: 41.4px;
+  }
+}
+@media (min-width: 1680px) and (max-width: 1919px) {
+  .knowledge-section .tab .tablinks p,
+  .knowledge-section .tab .tablinks.active p {
+    font-size: 38px;
+    line-height: 43.7px;
+  }
+}

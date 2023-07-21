@@ -1,0 +1,688 @@
+.servicebody-section {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.servicebody-section .sol-box {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    background-position: top left !important;
+    background-size: cover !important;
+}
+
+.servicebody-section .box-right {
+    background: url('../images/service-box-right.webp') no-repeat;
+}
+
+.servicebody-section .ser-box1 {
+    background: url('../images/ser-box1.webp') no-repeat;
+}
+
+.servicebody-section .ser-box2 {
+    background: url('../images/ser-box2.webp') no-repeat;
+}
+
+.servicebody-section .ser-box3 {
+    background: url('../images/ser-box3.webp') no-repeat;
+}
+
+.servicebody-section .sol-box.d-bg-box {
+    background: linear-gradient(121.92deg, #041E30 13.01%, #000000 74.52%);
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.servicebody-section .sol-box.d-bg-box h4 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.servicebody-section .sol-box.d-bg-box p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.servicebody-section .marginleft{
+margin-left: -25px;
+}
+.servicebody-section .sol-box.d-bg-box p.anima {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+}
+
+.servicebody-section .sol-box.d-bg-box p.anima span.anima-underline {
+    color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 179px;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+.servicebody-section .sol-box.d-bg-box p.anima span.anima-underline:after {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 5px no-repeat;
+    content: "";
+    height: 100%;
+    margin-top: 0px;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 400%;
+    will-change: transform;
+    z-index: 1;
+    -webkit-animation: underline-gradient 6s linear infinite;
+    animation: underline-gradient 6s linear infinite;
+    background-image: linear-gradient(270deg, rgba(241, 21, 118, 1) 0%, rgba(1, 198, 178, 1) 20%, rgba(241, 21, 118, 1) 40%, rgba(1, 198, 178, 1) 60%, rgba(241, 21, 118, 1) 80%, rgba(1, 198, 178, 1) 100%);
+
+}
+
+.servicebody-section .sol-box.d-bg-box .findout-btn {
+    padding: 30px 50px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #03AD9B;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #03A796;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.25));
+    z-index: +1;
+    max-width: 313px;
+}
+
+
+
+
+.servicebody-section .sol-box.white {
+    color: #ffffff;
+}
+
+.servicebody-section .sol-box.black {
+    color: #202020;
+}
+
+.servicebody-section .sol-box .text-box {
+    margin: auto auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.servicebody-section .sol-box .counter-text h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 138px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.servicebody-section .sol-box .counter-text p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 65px;
+    color: #FFFFFF;
+    transform: translateY(-30px);
+}
+
+
+
+
+
+.servicebody-section .sol-box .counter-text p.anima span.anima-underline {
+    color: White;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+.servicebody-section .sol-box .counter-text p.anima span.anima-underline:after {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)) center 1.08em/100% 5px no-repeat;
+    content: "";
+    height: 100%;
+    margin-top: 25px;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 400%;
+    will-change: transform;
+    z-index: 1;
+    -webkit-animation: underline-gradient 6s linear infinite;
+    animation: underline-gradient 6s linear infinite;
+    background-image: linear-gradient(270deg, rgba(241, 21, 118, 1) 0%, rgba(1, 198, 178, 1) 20%, rgba(241, 21, 118, 1) 40%, rgba(1, 198, 178, 1) 60%, rgba(241, 21, 118, 1) 80%, rgba(1, 198, 178, 1) 100%);
+}
+
+
+.servicebody-section .text-box p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    color: #000000;
+    max-width: 570px;
+    margin: auto;
+}
+
+/* For 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .servicebody-section {
+        width: 100% !important;
+    }
+
+    .servicebody-section .text-box p {
+        color: #000;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        padding: 0% !important;
+        padding-bottom: 30px !important;
+        padding-top: 30px !important;
+    }
+
+    .servicebody-section .ordermobile {
+        order: 1 !important;
+    }
+    .servicebody-section .marginleft{
+        margin-left: -10px;
+        }
+
+    .servicebody-section .sol-box .counter-text p {
+        transform:translateY(-15px);
+    }
+    .servicebody-section .anima-underline {
+        color: #FFF;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 40px;
+    }
+
+    .servicebody-section .sol-box .counter-text p.anima span.anima-underline:after {
+        margin-top: 20px;
+    }
+
+    .servicebody-section .counter-text h2,
+    .servicebody-section .counter-text h2 span {
+        color: #FFF;
+        font-size: 48px !important;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        line-height: 60px !important;
+
+        /* padding-bottom: 0px !important; */
+    }
+
+    .servicebody-section .sol-box {
+        padding-top: 40px !important;
+    }
+
+    .servicebody-section .row {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .servicebody-section .counter-text {
+        padding: 0px !important;
+    }
+
+    .servicebody-section .ser-box3 {
+        background: url('../images/ser-box2.webp') no-repeat;
+    }
+
+    .servicebody-section .hover-box .sol-box h4 {
+        color: #FFF;
+        font-size: 20px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .servicebody-section .hover-box .sol-box p {
+        color: #FFF;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .servicebody-section .sol-box.d-bg-box .findout-btn {
+        color: #03AD9B;
+        text-align: center;
+        font-size: 14px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        width: 180px;
+        height: 48px;
+        padding: 15px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        text-decoration: none !important;
+    }
+
+    .servicebody-section .sol-box.d-bg-box a {
+        text-decoration: none !important;
+    }
+
+    /* .servicebody-section .sol-box{
+        padding: 0% !important;
+    } */
+    .servicebody-section .hover-box {
+        padding: 0px 15px 15px 15px !important;
+
+    }
+
+    .servicebody-section .pt-mobile {
+        padding-top: 25px !important;
+    }
+
+    .servicebody-section .hover-box .p-5 {
+        padding: 0px 15px 15px 15px !important;
+
+    }
+
+    .servicebody-section .bg-mobile {
+        background: linear-gradient(121.92deg, #041E30 13.01%, #000000 74.52%);
+
+    }
+
+    .servicebody-section .sol-box.d-bg-box {
+        background: transparent !important;
+    }
+
+    .servicebody-section .text-box .empty-para {
+        padding-bottom: 150px !important;
+    }
+
+    .servicebody-section .sol-box {
+        padding: 15px !important;
+    }
+
+    .servicebody-section .sol-box .mobpara-padding {
+        margin-left: -30px !important;
+    }
+
+    .servicebody-section .sol-box .mobilebtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicebody-section .anima {
+        margin-top: -25px;
+
+    }
+}
+
+/* For 640 Resolution */
+@media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
+    .servicebody-section {
+        width: 100% !important;
+    }
+
+    .servicebody-section .text-box p {
+        color: #000;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        padding: 0% !important;
+        padding-bottom: 30px !important;
+        padding-top: 30px !important;
+    }
+    .servicebody-section .marginleft{
+        margin-left: -10px;
+        }
+    .servicebody-section .ordermobile {
+        order: 1 !important;
+    }
+
+    .servicebody-section .sol-box .counter-text p {
+        transform:translateY(-15px);
+    }
+    .servicebody-section .anima-underline {
+        color: #FFF;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 40px;
+    }
+
+    .servicebody-section .sol-box .counter-text p.anima span.anima-underline:after {
+        margin-top: 20px;
+    }
+
+
+
+
+    .servicebody-section .counter-text h2,
+    .servicebody-section .counter-text h2 span {
+        color: #FFF;
+        font-size: 48px !important;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        line-height: 60px !important;
+
+        /* padding-bottom: 0px !important; */
+    }
+
+    .servicebody-section .sol-box {
+        padding-top: 40px !important;
+    }
+
+    .servicebody-section .row {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .servicebody-section .counter-text {
+        padding: 0px !important;
+    }
+
+    .servicebody-section .ser-box3 {
+        background: url('../images/ser-box2.webp') no-repeat;
+    }
+
+    .servicebody-section .hover-box .sol-box h4 {
+        color: #FFF;
+        font-size: 20px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .servicebody-section .hover-box .sol-box p {
+        color: #FFF;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .servicebody-section .sol-box.d-bg-box .findout-btn {
+        color: #03AD9B;
+        text-align: center;
+        font-size: 14px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        width: 180px;
+        height: 48px;
+        padding: 15px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        text-decoration: none !important;
+    }
+
+    .servicebody-section .sol-box.d-bg-box a {
+        text-decoration: none !important;
+    }
+
+    /* .servicebody-section .sol-box{
+        padding: 0% !important;
+    } */
+    .servicebody-section .hover-box {
+        padding: 0px 15px 15px 15px !important;
+
+    }
+
+    .servicebody-section .pt-mobile {
+        padding-top: 25px !important;
+    }
+
+    .servicebody-section .hover-box .p-5 {
+        padding: 0px 15px 15px 15px !important;
+
+    }
+
+    .servicebody-section .bg-mobile {
+        background: linear-gradient(121.92deg, #041E30 13.01%, #000000 74.52%);
+
+    }
+
+    .servicebody-section .sol-box.d-bg-box {
+        background: transparent !important;
+    }
+
+    .servicebody-section .text-box .empty-para {
+        padding-bottom: 150px !important;
+    }
+
+    .servicebody-section .sol-box {
+        padding: 15px !important;
+    }
+
+    .servicebody-section .sol-box .mobpara-padding {
+        margin-left: -30px !important;
+    }
+
+    .servicebody-section .sol-box .mobilebtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicebody-section .anima {
+        margin-top: -25px;
+
+    }
+}
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .servicebody-section .sol-box .counter-text h2 {
+        font-size: 84px;
+        line-height: 98px;
+    }
+    .servicebody-section .sol-box .counter-text p {
+        font-size: 21px;
+        line-height: 60px;
+    }
+
+    .servicebody-section .text-box p {
+        /* font-size: 19.6px; */
+    }
+
+    .servicebody-section .sol-box.d-bg-box h4 {
+        font-size: 28px;
+        line-height: 32.2px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box p {
+        font-size: 21px;
+        line-height: 23.8px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box .findout-btn {
+        font-size: 12.6px;
+        line-height: 14.7px;
+        padding: 21px 25px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1360px) {
+
+    .servicebody-section .sol-box .counter-text h2 {
+        font-size: 90px;
+        line-height: 105px;
+    }
+    .servicebody-section .sol-box .counter-text p {
+        font-size: 22.5px;
+        line-height: 60px;
+    }
+
+    .servicebody-section .text-box p {
+        /* font-size: 19.6px; */
+    }
+
+    .servicebody-section .sol-box.d-bg-box h4 {
+        font-size: 30px;
+        line-height: 34.5px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box p {
+        font-size: 22.5px;
+        line-height: 25.5px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box .findout-btn {
+        font-size: 13.5x;
+        line-height: 15.75px;
+        padding: 22.5px 37.8px;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1440px) {
+
+    .servicebody-section .sol-box .counter-text h2 {
+        font-size: 96px;
+        line-height: 112px;
+    }
+    .servicebody-section .sol-box .counter-text p {
+        font-size: 24px;
+        line-height: 60px;
+    }
+
+    .servicebody-section .text-box p {
+        /* font-size: 19.6px; */
+    }
+
+    .servicebody-section .sol-box.d-bg-box h4 {
+        font-size: 32px;
+        line-height: 36.8px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box p {
+        font-size: 24px;
+        line-height: 27.2px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box .findout-btn {
+        font-size: 14.4x;
+        line-height: 16.8px;
+        padding: 24px 40px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1680px) {
+
+    .servicebody-section .sol-box .counter-text h2 {
+        font-size: 102px;
+        line-height: 119px;
+    }
+    .servicebody-section .sol-box .counter-text p {
+        font-size: 25.5px;
+        line-height: 60px;
+    }
+
+    .servicebody-section .text-box p {
+        /* font-size: 19.6px; */
+    }
+
+    .servicebody-section .sol-box.d-bg-box h4 {
+        font-size: 34px;
+        line-height: 39.1px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box p {
+        font-size: 25.5px;
+        line-height: 28.9px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box .findout-btn {
+        font-size: 15.3x;
+        line-height: 17.85px;
+        padding: 25.5px 42.5px;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1919px) {
+    
+    .servicebody-section .sol-box .counter-text h2 {
+        font-size: 108px;
+        line-height: 126px;
+    }
+    .servicebody-section .sol-box .counter-text p {
+        font-size: 27px;
+        line-height: 60px;
+    }
+
+    .servicebody-section .text-box p {
+        /* font-size: 19.6px; */
+    }
+
+    .servicebody-section .sol-box.d-bg-box h4 {
+        font-size: 36px;
+        line-height: 41.4px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box p {
+        font-size: 27px;
+        line-height: 30.6px;
+    }
+
+    .servicebody-section .sol-box.d-bg-box .findout-btn {
+        font-size: 16.2px;
+        line-height: 18.9px;
+        padding: 27px 45px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1920px) {}
+

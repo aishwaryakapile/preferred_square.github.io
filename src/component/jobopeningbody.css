@@ -1,0 +1,176 @@
+.jobopeningbody-section .form-section {
+    padding-bottom: 150px;
+}
+
+.jobopeningbody-section .form-section h2 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.jobopeningbody-section .form-section label {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #03AD9B;
+}
+
+.jobopeningbody-section .form-section input[type=text],
+.jobopeningbody-section .form-section input[type=email],
+.jobopeningbody-section .form-section textarea,
+.jobopeningbody-section .form-section select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #03AD9B;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #03AD9B;
+    border-radius: 10px;
+}
+
+.jobopeningbody-section .form-section input[type=file] {
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px dashed #03AD9B;
+    border-radius: 10px;
+    height: 90px;
+
+}
+
+.jobopeningbody-section .form-section input[type=text],
+.jobopeningbody-section .form-section input[type=email],
+.jobopeningbody-section .form-section select {
+    height: 60px;
+}
+
+.jobopeningbody-section .form-section textarea {
+    height: 226px;
+    background-color: transparent;
+}
+
+.jobopeningbody-section .form-section button {
+    padding: 30px 92px;
+    color: #ffffff;
+    background: linear-gradient(180deg, #01C6B2 0%, #048D7F 128.35%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    text-align: right;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.jobopeningbody-section .form-section .errormsg {
+    color: red;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.jobopeningbody-section .jobinfo-section h2 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.jobopeningbody-section .jobinfo-section h5 {
+    color: #01C6B2;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 28.6px */
+    text-transform: capitalize;
+}
+
+.jobopeningbody-section .jobinfo-section ul li {
+    color: #000;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 32.4px */
+    text-transform: capitalize;
+    /* padding-right: 10px; */
+}
+
+.jobopeningbody-section .jobinfo-section ul li {
+    list-style-type: disc;
+}
+
+.jobopeningbody-section .job-upper-div {
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items:center; */
+}
+
+.jobopeningbody-section .job-upper-div button {
+    color: #FFF;
+
+    /* Overline */
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 15px */
+    letter-spacing: 0.15px;
+    border-radius: 30.5px;
+    background: #0A142F;
+    display: flex;
+    padding: 0px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.jobopeningbody-section .job-upper-div svg {
+    fill: #151515;
+    transform: translateY(2px);
+
+}
+
+.jobopeningbody-section .job-upper-div .job-upper-para {
+    color: #0A142F !important;
+
+    /* Overline */
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 15px */
+    letter-spacing: 0.15px;
+    transform: translateY(8px);
+}
+
+.jobopeningbody-section .jobinfo-section,.jobopeningbody-section .job-upper-div {
+    transform: translateX(-40px);
+}
+.jobopeningbody-section .form-section {
+    transform: translateX(40px);
+}
